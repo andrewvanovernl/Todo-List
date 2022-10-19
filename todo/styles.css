@@ -1,0 +1,88 @@
+
+
+body #container {
+  left: 0;
+  right: 0;
+  padding: 30px 0;
+  border-radius: 8px;
+  max-width: 400px;
+  height: 35%;
+  position: absolute;
+  margin: auto;
+  top: 50px;
+}
+body #container #add-task input {
+  border-radius: 35px;
+  width: 80%;
+  height: 35px;
+  font-size: 19px;
+  border: 2px dashed #d1d3d4;
+  padding: 10px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+}
+body #container #add-task {
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  padding: 25px 12px;
+}
+body #container #add-task input:focus {
+  outline: none;
+  border-color: #0733f7;
+}
+body #container #new-task button {
+  border: none;
+  background: #e700c1;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body #container #add-task button {
+  font-weight: 400;
+  font-size: 15px;
+  background: #ca1ac1;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 35px;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  float: right;
+}
+body #container #new-task {
+  height: fit-content;
+  padding: 5px 10px;
+  border-radius: 0px;
+  cursor: pointer;
+  border-bottom: 2px solid #d1d3d4;
+  background: #fff;
+}
+body #container #new-task ul li span {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+body {
+  background-color: #fcfcfc;
+}
+body #container #new-task ul li {
+  display: flex;
+ justify-content: space-between;
+}
+body #container #new-task button::before {
+  content: "\2713 ";
+  color: #fff;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+img{
+  height: 10%;
+  width:  10%;
+}
